@@ -1,0 +1,50 @@
+[
+  {
+    "name": "SLAC AI Capabilities (main page)",
+    "url": "https://it.slac.stanford.edu/about/slac-ai-capabilities"
+  },
+  {
+    "name": "AI for Productivity (SLAC)",
+    "url": "https://it.slac.stanford.edu/ai-productivity"
+  },
+  {
+    "name": "SLAC AI Accelerator",
+    "url": "https://it.slac.stanford.edu/slac-ai-accelerator"
+  },
+  {
+    "name": "AI for Developers (SLAC)",
+    "url": "https://it.slac.stanford.edu/ai-developers"
+  },
+  {
+    "name": "Stanford GenAI Tool Evaluation Matrix",
+    "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+  },
+  {
+    "name": "Stanford AI Playground",
+    "url": "https://aiplayground.stanford.edu"
+  },
+  {
+    "name": "Stanford AI API Gateway",
+    "url": "https://uit.stanford.edu/service/ai-api-gateway"
+  },
+  {
+    "name": "Responsible AI at Stanford",
+    "url": "https://uit.stanford.edu/security/responsibleai"
+  },
+  {
+    "name": "Guidance for Responsible AI at SLAC (login required)",
+    "url": "https://intranet.slac.stanford.edu/news/2025-01-14-guidance-responsible-ai-use"
+  },
+  {
+    "name": "SLAC Banned Hardware & Software list (login required)",
+    "url": "https://slacprod.servicenowservices.com/it_services?sys_kb_id=b3764bb61b77d0501c3262cfe54bcb83&id=kb_article_view"
+  },
+  {
+    "name": "Stanford Data Risk Classifications",
+    "url": "https://uit.stanford.edu/security/responsibleai"
+  },
+  {
+    "name": "Request AI Support / Consultation (SLAC, login required)",
+    "url": "https://slacprod.servicenowservices.com/it_services?id=sc_cat_item&sys_id=515f28711b607110c5d320eae54bcb64&sysparm_category=d65827c46fd921009c4235af1e3ee434"
+  }
+]

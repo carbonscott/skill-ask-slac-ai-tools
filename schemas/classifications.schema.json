@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "classifications",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["label", "meaning"],
+    "additionalProperties": false,
+    "properties": {
+      "label": {"type": "string", "minLength": 1},
+      "meaning": {"type": "string"}
+    }
+  },
+  "uniqueItems": true
+}

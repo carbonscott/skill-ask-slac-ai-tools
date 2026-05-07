@@ -1,0 +1,1102 @@
+[
+  {
+    "name": "**Other AI email clients** (Canary Mail, Shortwave, Spike, etc.)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not approved; admin-level permissions risk",
+    "notes": "Use Microsoft 365 Copilot instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "**Other AI meeting bots** (Otter.ai, Notion AI, Sembly, etc.)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Admin-level meeting permissions; not approved",
+    "notes": "Use Zoom AI Companion or M365 Copilot in Teams instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Anthropic Claude (public cloud service)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Did not pass required reviews; not approved for Stanford/SLAC data",
+    "notes": "Claude models available via SLAC AI Accelerator and Stanford AI Playground",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "ChatGPT (OpenAI – public)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Did not pass required reviews; not approved for Stanford/SLAC data",
+    "notes": "Similar models available via Stanford AI Playground",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Claude Code (public/direct)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not approved for Stanford data as a standalone tool",
+    "notes": "Use via SLAC AI Accelerator API hub (SLAC) or AI API Gateway (Stanford)",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Claude in Excel",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Under new review; not currently approved",
+    "notes": "—",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Cursor",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not under review; not approved for Stanford data",
+    "notes": "—",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "DeepSeek (public)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not currently under review; not approved for Stanford/SLAC data",
+    "notes": "DeepSeek models available via Stanford AI Playground",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Fireflies.ai",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Admin-level meeting permissions; not approved",
+    "notes": "Use Zoom AI Companion or M365 Copilot in Teams instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Google Drive M365 Copilot connector",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Under review; not currently approved",
+    "notes": "—",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Google Gemini (unauthenticated / personal account)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not approved for Stanford data without Stanford account login",
+    "notes": "Use via [gemini.google.com](https://gemini.google.com) with Stanford account instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Google Gemini for Workspace",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Cannot be purchased due to Google licensing limitations",
+    "notes": "UIT is working with Google on a future solution",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Google NotebookLM Plus",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Cannot be purchased due to Google licensing limitations",
+    "notes": "Use standard NotebookLM instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Grammarly (non-Education versions)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Vendor does not support required service agreements for non-Education versions",
+    "notes": "Use Grammarly Education with TSA+BAA only",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Grok",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not approved for SLAC use",
+    "notes": "Listed as prohibited by SLAC IT",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Microsoft Copilot (unauthenticated)",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not approved for Stanford data; does not require SUNet ID sign-in",
+    "notes": "Use Authenticated Copilot Chat instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "OpenClaw / Clawdbot / Moltbot",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not under review; not approved",
+    "notes": "—",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Perplexity",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Vendor does not support required service agreements",
+    "notes": "Not under review",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Read.ai",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Admin-level meeting permissions; not approved",
+    "notes": "Use Zoom AI Companion or M365 Copilot in Teams instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Serper AI",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Vendor does not support required service agreements",
+    "notes": "—",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Superhuman",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Did not pass required reviews; no required service agreements",
+    "notes": "Use Microsoft 365 Copilot for email AI instead",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "Zapier",
+    "section": "not_approved",
+    "category": "Not Approved",
+    "provider": null,
+    "description": null,
+    "approved_for_text": null,
+    "not_approved_for_text": null,
+    "reason_not_approved": "Not HIPAA-compliant; no enterprise license candidate",
+    "notes": "—",
+    "approved_classifications": [],
+    "access_links": [],
+    "source": null
+  },
+  {
+    "name": "AWS Bedrock (SLAC)",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "AWS – SLAC-managed cloud",
+    "description": "Fully managed AWS service for building and scaling generative AI and agentic applications using foundation models from AWS, Anthropic, Meta, Mistral, and more. Provides unified APIs, evaluation tooling, and managed orchestration.",
+    "approved_for_text": "Within SLAC-managed cloud environments; Low & Moderate-Risk data",
+    "not_approved_for_text": "Use outside SLAC-managed cloud; High-Risk/CUI without separately authorized system",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Submit a Request (login required)",
+        "url": "https://slacprod.servicenowservices.com/it_services"
+      }
+    ],
+    "source": {
+      "label": "AI for Developers – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-developers"
+    }
+  },
+  {
+    "name": "Claude Code (via SLAC AI Accelerator API)",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "Anthropic (routed through SLAC API hub)",
+    "description": "Agentic AI coding tool that runs in the terminal to read, edit, and debug code across files. Understands project context, executes bash commands, runs tests, and manages Git workflows. At SLAC, must be connected to the SLAC AI Accelerator API hub (not the public Anthropic cloud service).",
+    "approved_for_text": "Low & Moderate-Risk data when connected to SLAC API hub",
+    "not_approved_for_text": "Direct use of public Anthropic/Claude cloud service; autonomous commits/merges without human review",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Claude Code Connector Instructions",
+        "url": "https://it.slac.stanford.edu/slac-ai-accelerator"
+      }
+    ],
+    "source": {
+      "label": "AI for Developers – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-developers"
+    }
+  },
+  {
+    "name": "GitHub Copilot (SLAC)",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "GitHub / Microsoft – SLAC-provided license",
+    "description": "AI coding assistant integrated in IDEs (VS Code, etc.) that provides real-time code completions, transforms comments into code, and navigates unfamiliar codebases.",
+    "approved_for_text": "SLAC-managed repositories only, with SLAC-provided license",
+    "not_approved_for_text": "Non-SLAC-managed repos; autonomous PR merges or deployments",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [],
+    "access_links": [
+      {
+        "label": "Submit a Request (login required)",
+        "url": "https://slacprod.servicenowservices.com/it_services"
+      }
+    ],
+    "source": {
+      "label": "AI for Developers – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-developers"
+    }
+  },
+  {
+    "name": "Google Cloud Platform / Vertex AI (SLAC – coming soon)",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "Google Cloud – SLAC-managed",
+    "description": "GCP architecture mirroring SLAC's AWS infrastructure, providing access to Gemini models, co-Scientist, and Jules. Currently in procurement.",
+    "approved_for_text": "TBD – Low & Moderate-Risk (expected)",
+    "not_approved_for_text": "Not yet available",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk"
+    ],
+    "access_links": [],
+    "source": {
+      "label": "AI for Developers – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-developers"
+    }
+  },
+  {
+    "name": "Joulix AI Application Suite",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "Google-powered, DOE-hosted",
+    "description": "Google-powered, DOE-hosted AI tools enriched with DOE data to enhance productivity and foster innovation toward DOE's mission.",
+    "approved_for_text": "DOE mission-related work",
+    "not_approved_for_text": "Non-DOE use cases",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [],
+    "access_links": [
+      {
+        "label": "AI for Productivity – SLAC IT",
+        "url": "https://it.slac.stanford.edu/ai-productivity"
+      }
+    ],
+    "source": {
+      "label": "AI for Productivity – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-productivity"
+    }
+  },
+  {
+    "name": "Legion Intelligence (Developer Platform)",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "Legion (commercial) – SLAC-deployed",
+    "description": "Commercially supported development and workflow hosting platform for complex operational use cases, offering vendor-supported agent orchestration, development, and hosting. Geared toward teams with less internal support.",
+    "approved_for_text": "Teams needing hosted agent orchestration",
+    "not_approved_for_text": "Not yet specified",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [],
+    "access_links": [],
+    "source": {
+      "label": "AI for Developers – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-developers"
+    }
+  },
+  {
+    "name": "Legion Suite",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "Legion (commercial) – SLAC-deployed",
+    "description": "Enterprise AI search and workflow platform that breaks down data silos across SLAC systems (SharePoint, ServiceNow, Confluence, etc.). Features AI search, cited Q&A with hallucination detection, automated workflows, and permission-aware access. Data stays within SLAC's environment; supports on-premises, air-gapped, or cloud deployment with any LLM.",
+    "approved_for_text": "Low & Moderate-Risk SLAC data; internal productivity and search",
+    "not_approved_for_text": "Not specified for High-Risk/CUI data without separate review",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "AI for Productivity – SLAC IT",
+        "url": "https://it.slac.stanford.edu/ai-productivity"
+      }
+    ],
+    "source": {
+      "label": "AI for Productivity – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-productivity"
+    }
+  },
+  {
+    "name": "Local-only AI Models",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "Self-hosted on SLAC infrastructure",
+    "description": "AI models run entirely on SLAC-authorized systems with no network calls to external services. Generally permitted without prior approval for public data.",
+    "approved_for_text": "Low-Risk data on any SLAC-authorized system; CUI/Sensitive data if the underlying system is authorized for that classification",
+    "not_approved_for_text": "Network-aware local models with non-public data (requires Cyber Security review first)",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Low-Risk",
+      "CUI"
+    ],
+    "access_links": [],
+    "source": {
+      "label": "SLAC AI Capabilities FAQ",
+      "url": "https://it.slac.stanford.edu/about/slac-ai-capabilities"
+    }
+  },
+  {
+    "name": "Microsoft 365 Copilot (SLAC)",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "Microsoft / SLAC-managed M365 tenant",
+    "description": "AI assistant embedded in Word, Excel, PowerPoint, Outlook, Teams, and OneNote. Helps draft documents, analyze data, create presentations, summarize emails, recap meetings, and build personal productivity agents. SLAC provides training sessions (100/200/300 levels). Requires SLAC-provided license on SLAC-managed system.",
+    "approved_for_text": "Approved on SLAC-managed systems with SLAC-provided license",
+    "not_approved_for_text": "Non-SLAC-managed devices; use without an SLAC license",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [],
+    "access_links": [
+      {
+        "label": "Request a full Copilot license (login required)",
+        "url": "https://slacprod.servicenowservices.com/it_services"
+      },
+      {
+        "label": "Sign up for Copilot Training",
+        "url": "https://docs.google.com/forms/d/1-2nyb0J_gyqiDt1gobGxCzhAfgWF4PX9F8HEulQqZyU/edit"
+      }
+    ],
+    "source": {
+      "label": "AI for Productivity – SLAC IT",
+      "url": "https://it.slac.stanford.edu/ai-productivity"
+    }
+  },
+  {
+    "name": "SLAC AI Accelerator",
+    "section": "slac",
+    "category": "SLAC-Specific",
+    "provider": "SLAC IT (AWS Bedrock + LiteLLM)",
+    "description": "SLAC-governed platform giving access to curated AI models (Anthropic Claude, Meta Llama, OpenAI OSS, and more) for drafting, summarizing, coding, and working with SLAC datasets. Built on SLAC VPC; API access available within SLAC network. Pay-as-you-go ($500/month default API budget). Google Gemini models forthcoming.",
+    "approved_for_text": "Low-Risk & Moderate-Risk SLAC data; scientific and operational use cases",
+    "not_approved_for_text": "CUI or High-Risk data (requires separately authorized system); fully autonomous code commits/deployments",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Access the SLAC AI Accelerator",
+        "url": "https://it.slac.stanford.edu/slac-ai-accelerator"
+      },
+      {
+        "label": "Request API Key (login required)",
+        "url": "https://slacprod.servicenowservices.com/it_services"
+      }
+    ],
+    "source": {
+      "label": "SLAC AI Accelerator page",
+      "url": "https://it.slac.stanford.edu/slac-ai-accelerator"
+    }
+  },
+  {
+    "name": "AWS Bedrock (Stanford)",
+    "section": "stanford",
+    "category": "Stanford / ☁️ Developer & Cloud AI Platforms",
+    "provider": null,
+    "description": "Access to Amazon AI and third-party AI models via a Stanford AWS account (Cardinal Cloud). High-Risk/PHI use requires a DRA.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI) (Cardinal Cloud + Wiz compliance + DRA for High-Risk/PHI)",
+    "not_approved_for_text": "Use outside Cardinal Cloud without Wiz compliance; High-Risk/PHI without a DRA",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Cloud Account Management – UIT",
+        "url": "https://uit.stanford.edu/service/cloudacctmgmt"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "AWS Q (Stanford)",
+    "section": "stanford",
+    "category": "Stanford / ☁️ Developer & Cloud AI Platforms",
+    "provider": null,
+    "description": "Managed generative AI–powered chat assistant available through a Stanford AWS account. Security review in progress; currently limited to Low-Risk data.",
+    "approved_for_text": "Low-Risk only (review in progress)",
+    "not_approved_for_text": "Moderate-Risk and above pending security review completion",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Cloud Account Management – UIT",
+        "url": "https://uit.stanford.edu/service/cloudacctmgmt"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "AWS SageMaker (Stanford)",
+    "section": "stanford",
+    "category": "Stanford / ☁️ Developer & Cloud AI Platforms",
+    "provider": null,
+    "description": "Managed AWS platform for building, training, and deploying machine learning models. Available through a Stanford AWS account. High-Risk/PHI use requires a DRA.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI) (Cardinal Cloud + Wiz compliance + DRA)",
+    "not_approved_for_text": "Use outside Cardinal Cloud without Wiz compliance; High-Risk/PHI without a DRA",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Cloud Account Management – UIT",
+        "url": "https://uit.stanford.edu/service/cloudacctmgmt"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Azure OpenAI (Stanford)",
+    "section": "stanford",
+    "category": "Stanford / ☁️ Developer & Cloud AI Platforms",
+    "provider": null,
+    "description": "Access to Azure OpenAI and other third-party AI models via a Stanford Azure account (Cardinal Cloud). Commercially available with billing to a PTA. High-Risk/PHI use requires a Data Risk Assessment (DRA).",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI) (Cardinal Cloud + Wiz compliance + DRA for High-Risk/PHI)",
+    "not_approved_for_text": "Use outside Cardinal Cloud without Wiz compliance; High-Risk/PHI without a DRA",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Cloud Account Management – UIT",
+        "url": "https://uit.stanford.edu/service/cloudacctmgmt"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Google Vertex AI (Stanford)",
+    "section": "stanford",
+    "category": "Stanford / ☁️ Developer & Cloud AI Platforms",
+    "provider": null,
+    "description": "Access to Google AI and third-party AI models via a Stanford GCP project (Cardinal Cloud). High-Risk/PHI use requires a DRA.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI) (Cardinal Cloud + Wiz compliance + DRA for High-Risk/PHI)",
+    "not_approved_for_text": "Use outside Cardinal Cloud without Wiz compliance; High-Risk/PHI without a DRA",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Cloud Account Management – UIT",
+        "url": "https://uit.stanford.edu/service/cloudacctmgmt"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Microsoft 365 Copilot in Teams",
+    "section": "stanford",
+    "category": "Stanford / 🎙️ Transcription & Meeting AI Tools",
+    "provider": null,
+    "description": "M365 Copilot meeting features (transcripts, summaries, live questions) available with a Teams Meetings and/or Teams Premium license. Approved for High-Risk and PHI data within the Stanford M365 tenant.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI)",
+    "not_approved_for_text": "Use outside Stanford M365 tenant",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "m365.cloud.microsoft/chat",
+        "url": "https://m365.cloud.microsoft/chat"
+      },
+      {
+        "label": "Ordering info",
+        "url": "https://uit.stanford.edu/service/microsoft365/mscopilotchat"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Slack Huddle Notes",
+    "section": "stanford",
+    "category": "Stanford / 🎙️ Transcription & Meeting AI Tools",
+    "provider": null,
+    "description": "AI-powered note-taking built into Slack Huddles. Automatically transcribes and summarizes meetings including attendees, decisions, action items, and full transcript. Cannot include external guests.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) in private channels/DMs",
+    "not_approved_for_text": "PHI; external guest huddles",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Slack AI page",
+        "url": "https://uit.stanford.edu/service/slack/stanford-slackai"
+      }
+    ],
+    "source": {
+      "label": "Stanford Slack AI",
+      "url": "https://uit.stanford.edu/service/slack/stanford-slackai"
+    }
+  },
+  {
+    "name": "Zoom AI Companion",
+    "section": "stanford",
+    "category": "Stanford / 🎙️ Transcription & Meeting AI Tools",
+    "provider": null,
+    "description": "Native Zoom features: meeting summaries, smart recording (chapters, highlights, action items), and in-meeting Q&A. Not enabled by default — hosts must turn on features in their Stanford Zoom web portal settings. As of Jan 26, 2026, participants must agree to an AI Companion Policy Disclaimer. High-Risk/PHI approval was rescinded in April 2025.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "High-Risk data (approval rescinded April 2025); PHI; third-party meeting bots",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Stanford Zoom portal settings",
+        "url": "https://uit.stanford.edu/service/zoom/ai"
+      }
+    ],
+    "source": {
+      "label": "Zoom AI Companion – UIT",
+      "url": "https://uit.stanford.edu/service/zoom/ai"
+    }
+  },
+  {
+    "name": "Authenticated Google Gemini Chat",
+    "section": "stanford",
+    "category": "Stanford / 💬 Chat & Collaboration AI Tools",
+    "provider": null,
+    "description": "Free, web-based conversational AI assistant (text, images, multimodal) powered by Google Gemini models. Must be signed in with Stanford Google account. Workspace integration (Gmail/Docs/Sheets/Slides) currently disabled for Stanford accounts due to licensing. Chats auto-deleted after 18 months.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "PHI; High-Risk data; PII; proprietary info; patent-related code",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "gemini.google.com",
+        "url": "https://gemini.google.com"
+      },
+      {
+        "label": "More info",
+        "url": "https://uit.stanford.edu/service/gsuite/geminiapp"
+      }
+    ],
+    "source": {
+      "label": "Google Gemini – UIT",
+      "url": "https://uit.stanford.edu/service/gsuite/geminiapp"
+    }
+  },
+  {
+    "name": "Google Docs / Slides Voice Typing",
+    "section": "stanford",
+    "category": "Stanford / 💬 Chat & Collaboration AI Tools",
+    "provider": null,
+    "description": "Built-in voice-to-text feature in Google Docs and Slides (microphone icon). Works in Chrome, Edge, and Safari. Approved when logged into Stanford Google account.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI)",
+    "not_approved_for_text": "N/A",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "support.google.com/docs/answer/4492226",
+        "url": "https://support.google.com/docs/answer/4492226"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Google NotebookLM",
+    "section": "stanford",
+    "category": "Stanford / 💬 Chat & Collaboration AI Tools",
+    "provider": null,
+    "description": "AI research and note-taking tool grounded in documents you upload (PDFs, research articles, notes). Uses Google Gemini to summarize, extract insights, answer questions, and generate content based only on your source material. Free via Stanford Google account.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "PHI; High-Risk data; proprietary info; PII",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "notebooklm.google.com",
+        "url": "https://notebooklm.google.com"
+      },
+      {
+        "label": "More info",
+        "url": "https://uit.stanford.edu/service/gsuite/notebooklm"
+      }
+    ],
+    "source": {
+      "label": "Google NotebookLM – UIT",
+      "url": "https://uit.stanford.edu/service/gsuite/notebooklm"
+    }
+  },
+  {
+    "name": "Grammarly (Education version only)",
+    "section": "stanford",
+    "category": "Stanford / 💬 Chat & Collaboration AI Tools",
+    "provider": null,
+    "description": "AI writing assistant for grammar checking, style improvement, tone suggestions, and AI-generated text. Only the Grammarly Education version with a signed Technical Service Agreement (TSA) and Business Associate Agreement (BAA) is approved.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "High-Risk data; PHI; use of any version other than Grammarly Education with TSA+BAA",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Microsoft 365 Copilot (Stanford – paid)",
+    "section": "stanford",
+    "category": "Stanford / 💬 Chat & Collaboration AI Tools",
+    "provider": null,
+    "description": "Paid AI assistant deeply integrated into Word, Excel, Outlook, PowerPoint, Teams (including meeting transcripts, summaries, live questions). Requires Stanford SUNet ID and per-user annual license. Approved for High-Risk and PHI data within the Stanford M365 tenant.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI)",
+    "not_approved_for_text": "Use outside the Stanford M365 tenant",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "m365.cloud.microsoft/chat",
+        "url": "https://m365.cloud.microsoft/chat"
+      },
+      {
+        "label": "Ordering instructions",
+        "url": "https://uit.stanford.edu/service/microsoft365/mscopilotchat"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Microsoft Copilot Chat (Authenticated)",
+    "section": "stanford",
+    "category": "Stanford / 💬 Chat & Collaboration AI Tools",
+    "provider": null,
+    "description": "Free AI chatbot running on Microsoft infrastructure. Chat-style interactions (text, image gen via DALL-E 3, summarization, code). Requires sign-in with Stanford SUNet ID. Data is not saved; Microsoft has no eyes-on access; not used to train models. Distinct from the paid M365 Copilot.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "PHI; High-Risk data; SSNs; financial account numbers",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "m365.cloud.microsoft/chat",
+        "url": "https://m365.cloud.microsoft/chat"
+      },
+      {
+        "label": "Setup Guide",
+        "url": "https://uit.stanford.edu/service/microsoft365/mscopilotchat"
+      }
+    ],
+    "source": {
+      "label": "Microsoft Copilot Chat – UIT",
+      "url": "https://uit.stanford.edu/service/microsoft365/mscopilotchat"
+    }
+  },
+  {
+    "name": "Slack AI Tools",
+    "section": "stanford",
+    "category": "Stanford / 💬 Chat & Collaboration AI Tools",
+    "provider": null,
+    "description": "AI features built into Stanford's Slack instance: channel/thread summaries, Slackbot AI assistant, message explanations, daily recaps, AI translations, automatic file summaries, canvas content generation, workflow automation, and Huddle Notes (transcription + summary). Data never leaves Slack-controlled infrastructure.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) in private channels/DMs only",
+    "not_approved_for_text": "PHI data; third-party bots in meetings",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Stanford Slack AI page",
+        "url": "https://uit.stanford.edu/service/slack/stanford-slackai"
+      }
+    ],
+    "source": {
+      "label": "Stanford Slack AI",
+      "url": "https://uit.stanford.edu/service/slack/stanford-slackai"
+    }
+  },
+  {
+    "name": "Cline",
+    "section": "stanford",
+    "category": "Stanford / 💻 AI Coding Assistants",
+    "provider": null,
+    "description": "AI coding assistant integrating with local dev environments (VS Code) to generate, modify, and execute code. Only approved when used with AI models through Stanford's AI API Gateway.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "Direct use with non-API-Gateway models; High-Risk data",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Setup Guide",
+        "url": "https://uit.stanford.edu/service/ai-api-gateway/userguide/cline-setup"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "GitHub Copilot (Stanford / Cardinal Cloud)",
+    "section": "stanford",
+    "category": "Stanford / 💻 AI Coding Assistants",
+    "provider": null,
+    "description": "AI coding assistant that suggests code completions, functions, and documentation in IDEs. Requires a Cardinal Cloud Azure subscription (billed monthly at $19/user/month to a PTA). Only approved for Cardinal Cloud GitHub.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "Non–Cardinal Cloud GitHub repos; High-Risk data",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Cardinal Cloud GitHub info",
+        "url": "https://uit.stanford.edu/service/github"
+      },
+      {
+        "label": "Join Cardinal Cloud GitHub",
+        "url": "https://uit.stanford.edu/service/github"
+      }
+    ],
+    "source": {
+      "label": "Cardinal Cloud GitHub – UIT",
+      "url": "https://uit.stanford.edu/service/github"
+    }
+  },
+  {
+    "name": "Roo Code",
+    "section": "stanford",
+    "category": "Stanford / 💻 AI Coding Assistants",
+    "provider": null,
+    "description": "Agentic coding tool for VS Code that generates code, refactors projects, and automates dev tasks. Only approved when connected to models via the AI API Gateway.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "Direct use with non-API-Gateway models; High-Risk data",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Setup Guide",
+        "url": "https://uit.stanford.edu/service/ai-api-gateway/userguide/roo-setup"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "AI API Gateway",
+    "section": "stanford",
+    "category": "Stanford / 🖥️ Stanford-Hosted Platforms",
+    "provider": null,
+    "description": "Stanford's internal API access to all models available in the AI Playground. Intended for developers/researchers who want to build custom AI-powered solutions. Requires a valid Stanford PTA. Pay-as-you-go.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "High-Risk data; PHI; non-PTA holders",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "Request an API key",
+        "url": "https://uit.stanford.edu/service/ai-api-gateway"
+      }
+    ],
+    "source": {
+      "label": "AI API Gateway",
+      "url": "https://uit.stanford.edu/service/ai-api-gateway"
+    }
+  },
+  {
+    "name": "SHC-SoM Secure GPT",
+    "section": "stanford",
+    "category": "Stanford / 🖥️ Stanford-Hosted Platforms",
+    "provider": null,
+    "description": "Stanford Medicine–hosted platform for testing multiple AI models in a secure environment. Available to select Stanford Medicine users only. Approved for sensitive and PHI data for Stanford Medicine users.",
+    "approved_for_text": "Low-Risk · Moderate-Risk · High-Risk (non-PHI) · High-Risk (PHI)",
+    "not_approved_for_text": "Non–Stanford Medicine users",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "High-Risk (non-PHI)",
+      "High-Risk (PHI)",
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "securegpt.stanfordhealthcare.org",
+        "url": "https://securegpt.stanfordhealthcare.org"
+      }
+    ],
+    "source": {
+      "label": "GenAI Tool Matrix",
+      "url": "https://uit.stanford.edu/ai/genai-tool-matrix"
+    }
+  },
+  {
+    "name": "Stanford AI Playground",
+    "section": "stanford",
+    "category": "Stanford / 🖥️ Stanford-Hosted Platforms",
+    "provider": null,
+    "description": "Stanford-hosted platform to test and compare multiple AI models (OpenAI GPT-4o/4.1/o1/o3-mini/gpt-5, Google Gemini 2.0/2.5-Pro, Anthropic Claude 3/4/4.5, DeepSeek R1/V3, Meta Llama 3.2/4) in one safe environment. Includes agents (image gen, financial search, Wolfram, Admin Guide, etc.), web search, file search, artifacts, model comparison, and memories. Managed by UIT as an ongoing pilot.",
+    "approved_for_text": "Low-Risk · Moderate-Risk",
+    "not_approved_for_text": "High-Risk data; PHI; CUI; SLAC-internal/proprietary data",
+    "reason_not_approved": null,
+    "notes": null,
+    "approved_classifications": [
+      "Moderate-Risk",
+      "Low-Risk"
+    ],
+    "access_links": [
+      {
+        "label": "aiplayground.stanford.edu",
+        "url": "https://aiplayground.stanford.edu"
+      },
+      {
+        "label": "Quick Start Guide",
+        "url": "https://uit.stanford.edu/aiplayground"
+      }
+    ],
+    "source": {
+      "label": "Stanford AI Playground",
+      "url": "https://uit.stanford.edu/aiplayground"
+    }
+  }
+]

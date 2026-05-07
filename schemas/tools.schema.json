@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "tools",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "section", "category", "approved_classifications", "access_links"],
+    "additionalProperties": false,
+    "properties": {
+      "name": {"type": "string", "minLength": 1},
+      "section": {"type": "string", "enum": ["slac", "stanford", "not_approved"]},
+      "category": {"type": "string", "minLength": 1},
+      "provider": {"type": ["string", "null"]},
+      "description": {"type": ["string", "null"]},
+      "approved_for_text": {"type": ["string", "null"]},
+      "not_approved_for_text": {"type": ["string", "null"]},
+      "reason_not_approved": {"type": ["string", "null"]},
+      "notes": {"type": ["string", "null"]},
+      "approved_classifications": {
+        "type": "array",
+        "items": {"type": "string", "minLength": 1},
+        "uniqueItems": true
+      },
+      "access_links": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["label", "url"],
+          "additionalProperties": false,
+          "properties": {
+            "label": {"type": "string"},
+            "url": {"type": "string", "format": "uri"}
+          }
+        }
+      },
+      "source": {
+        "oneOf": [
+          {"type": "null"},
+          {
+            "type": "object",
+            "required": ["label", "url"],
+            "additionalProperties": false,
+            "properties": {
+              "label": {"type": "string"},
+              "url": {"type": "string", "format": "uri"}
+            }
+          }
+        ]
+      }
+    },
+    "allOf": [
+      {
+        "if": {"properties": {"section": {"const": "not_approved"}}},
+        "then": {
+          "required": ["reason_not_approved"],
+          "properties": {
+            "reason_not_approved": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    ]
+  }
+}
