@@ -1,0 +1,22 @@
+[
+  {
+    "label": "High-Risk (non-PHI)",
+    "meaning": "Sensitive data excluding Protected Health Information"
+  },
+  {
+    "label": "High-Risk (PHI)",
+    "meaning": "Protected Health Information (HIPAA-covered)"
+  },
+  {
+    "label": "Moderate-Risk",
+    "meaning": "Internal, non-sensitive university data"
+  },
+  {
+    "label": "Low-Risk",
+    "meaning": "Publicly available or non-sensitive information"
+  },
+  {
+    "label": "CUI",
+    "meaning": "Controlled Unclassified Information (DOE/federal)"
+  }
+]
