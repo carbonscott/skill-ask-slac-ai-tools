@@ -6,7 +6,8 @@
 """Validate data/*.json and build build/ai-tooling.db with FTS5 search.
 
 Re-runnable: drops and recreates all tables on each run.
-Run with `uv run scripts/build_db.py` (or directly — the shebang invokes uv).
+Run through ./setup.sh, which sources env.sh so the facility's shared uv is on
+PATH; or explicitly: `source env.sh && uv run --quiet --script scripts/build_db.py`.
 """
 
 from __future__ import annotations
