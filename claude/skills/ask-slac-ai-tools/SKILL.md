@@ -16,7 +16,7 @@ SKILL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)"
 source "$SKILL_DIR/env.sh"
 ```
 
-If `SLAC_AI_TOOLS_DB` is empty after sourcing or the file does not exist, offer to run `./setup.sh` in the skill directory on the user's behalf. `setup.sh` validates the JSON data and builds `build/ai-tooling.db` with FTS5. It requires [`uv`](https://docs.astral.sh/uv/) — the build script is a PEP 723 inline-metadata script that uv runs in an ephemeral environment.
+If `SLAC_AI_TOOLS_DB` is empty after sourcing or the file does not exist, offer to run `./setup.sh` in the skill directory on the user's behalf. `setup.sh` validates the JSON data and builds `build/ai-tooling.db` with FTS5. It requires [`uv`](https://docs.astral.sh/uv/) — the build script is a PEP 723 inline-metadata script that uv runs in an ephemeral environment; `env.sh` (through `env.local`) puts the facility's shared `uv` on `PATH`, so `source env.sh && ./setup.sh` works without a personal install.
 
 All queries below assume:
 
