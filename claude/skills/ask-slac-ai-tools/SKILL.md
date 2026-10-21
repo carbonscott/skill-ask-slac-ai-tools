@@ -12,11 +12,13 @@ You answer questions about AI tools approved (and not approved) for use at SLAC,
 Source the environment script to set `SLAC_AI_TOOLS_DB`:
 
 ```bash
-SKILL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)"
+SKILL_DIR="${CLAUDE_SKILL_DIR}"   # this skill's directory, filled in for you
 source "$SKILL_DIR/env.sh"
 ```
 
-If `SLAC_AI_TOOLS_DB` is empty after sourcing or the file does not exist, offer to run `./setup.sh` in the skill directory on the user's behalf. `setup.sh` validates the JSON data and builds `build/ai-tooling.db` with FTS5. It requires [`uv`](https://docs.astral.sh/uv/) — the build script is a PEP 723 inline-metadata script that uv runs in an ephemeral environment; `env.sh` (through `env.local`) puts the facility's shared `uv` on `PATH`, so `source env.sh && ./setup.sh` works without a personal install.
+`SKILL_DIR` is the absolute path of the directory holding this `SKILL.md`. Claude Code fills it in when it loads the skill, and the shared opencode deployment has it written in at deploy time. If it is not an absolute path as you read it, use the "Base directory for this skill" path printed when the skill loaded. Do not compute it from `$0` or `BASH_SOURCE`: in an agent's shell those name bash itself, not this file.
+
+If `SLAC_AI_TOOLS_DB` is empty after sourcing, check `SKILL_DIR` first: on the shared S3DF deployment `env.local` always sets it, so an empty value there means the `source` failed. If it is set but the file does not exist, or this is a personal install with no database, offer to run `./setup.sh` in the skill directory on the user's behalf. `setup.sh` validates the JSON data and builds `build/ai-tooling.db` with FTS5. It requires [`uv`](https://docs.astral.sh/uv/) — the build script is a PEP 723 inline-metadata script that uv runs in an ephemeral environment; `env.sh` (through `env.local`) puts the facility's shared `uv` on `PATH`, so `source env.sh && ./setup.sh` works without a personal install.
 
 All queries below assume:
 
